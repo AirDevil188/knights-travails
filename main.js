@@ -1,11 +1,12 @@
-const gameBoard = () => {
-  let gameBoard = new Array(7);
-  return gameBoard;
-};
+const gameboard = () => {
+  let board = [];
 
-//create 8x8 gameBoard
-// add legal moves for the knight chess figure
-// make sure to keep the knight from going off bounds (off the gameBoard)
-// use BFS to find the shortest path
-// keep track of the visited cells with new Set
-// return the shortest path
+  for (let i = 0; i < 8; i++) {
+    board[i] = [];
+    for (let j = 0; j < 8; j++) {
+      board[i][j] = false;
+    }
+  }
+
+  return board;
+};
