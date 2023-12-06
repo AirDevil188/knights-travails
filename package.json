@@ -1,5 +1,6 @@
 {
   "name": "knights-travails2",
+  "type": "module",
   "version": "1.0.0",
   "description": "KTT",
   "main": "main.js",
